@@ -1,4 +1,7 @@
-# domain-parser
+# Domain Parser for Go
+
+The package domain-parser provides domain name parser based on url.Parse that is golang function
+
 ```go 
 package main
 
