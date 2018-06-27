@@ -36,4 +36,10 @@ func TestParse(t *testing.T) {
 		t.Errorf("Expected domain of test.com, but it was %s instead", m)
 	}
 
+	en, _ := Parse("http://m.test.co.uk")
+
+	if en != "test.co.uk" {
+		t.Errorf("Expected domain of test.com, but it was %s instead", en)
+	}
+
 }
